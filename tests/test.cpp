@@ -27,7 +27,7 @@ TEST(view_directory, first_test) {
   EXPECT_EQ(ss2.str(),
             "broker:ib account:00122223 files:1 lastdate:20180902\n");
 }
-TEST(view_directory, secons_twst) {
+TEST(view_directory, second_test) {
   std::string path(current_dir("second_test"));
   view_directory vd(path);
   std::stringstream ss1 = vd.print_files();
